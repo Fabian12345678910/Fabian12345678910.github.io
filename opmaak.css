@@ -79,3 +79,17 @@ footer h3 {
   margin: 0 auto 0 auto;
   width: 960px;
 }
+
+.hover {
+  font-size: 1px;
+}
+
+.suprise {
+  display: none;
+}
+
+.secret:hover .suprise {
+  padding: 15px;
+  display: block;
+  background-color: lightblue;
+}
